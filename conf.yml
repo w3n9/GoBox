@@ -1,0 +1,9 @@
+project:
+  name: GoBox
+storage:
+  path: /Users/stringtek/go/src/GoBox/upload/
+file:
+  encrypt: sha1
+web:
+  staticUrlPrefix: /static/
+  staticDirPrefix: /Users/stringtek/go/src/GoBox/public/
