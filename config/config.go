@@ -19,6 +19,10 @@ type YamlConfig struct{
 		StaticUrlPrefix string `yaml:"staticUrlPrefix"`
 		StaticDirPrefix string `yaml:"staticDirPrefix"`
 	} `yaml:"web"`
+	DataSource struct{
+		Type string `yaml:"type"`
+		Url string `yaml:"url"`
+	} `yaml:"dataSource"`
 }
 var conf YamlConfig
 

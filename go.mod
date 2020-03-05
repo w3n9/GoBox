@@ -2,4 +2,7 @@ module GoBox
 
 go 1.13
 
-require gopkg.in/yaml.v2 v2.2.8
+require (
+	github.com/go-sql-driver/mysql v1.5.0
+	gopkg.in/yaml.v2 v2.2.8
+)

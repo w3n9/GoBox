@@ -82,12 +82,12 @@ func UploadFileHandler(w http.ResponseWriter,r *http.Request){
 		}
 
 	}else if r.Method==http.MethodDelete{
-		hash:=r.URL.Query().Get("hash")
-		fileMeta := meta.DeleteFileMeta(hash)
-		err := os.Remove(fileMeta.Location)
-		if err != nil {
-			panic(err)
-		}
+		//hash:=r.URL.Query().Get("hash")
+		//fileMeta := meta.DeleteFileMeta(hash)
+		//err := os.Remove(fileMeta.Location)
+		//if err != nil {
+		//	panic(err)
+		//}
 		_, _ = io.WriteString(w, "del ok")
 	} else{
 		w.WriteHeader(http.StatusBadRequest)
