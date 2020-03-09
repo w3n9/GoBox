@@ -11,4 +11,6 @@ web:
   staticDirPrefix: /Users/stringtek/go/src/GoBox/public/
 dataSource:
   type: mysql
-  # url: root:123456@tcp(120.76.136.37)/go_box?time_zone=%27Asia%2FShanghai%27
+  # url: root:123456@tcp(*******)/go_box?time_zone=%27Asia%2FShanghai%27
+  url: ${MYSQL_URL}
+
