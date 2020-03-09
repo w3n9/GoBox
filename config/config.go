@@ -16,6 +16,8 @@ type YamlConfig struct{
 		Encrypt string `yaml:"encrypt"`
 	} `yaml:"file"`
 	Web struct{
+		Host            string `yaml:"host"`
+		Port            string `yaml:"port"`
 		StaticUrlPrefix string `yaml:"staticUrlPrefix"`
 		StaticDirPrefix string `yaml:"staticDirPrefix"`
 	} `yaml:"web"`
