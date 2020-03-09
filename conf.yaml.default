@@ -1,0 +1,18 @@
+# you should to remove the .default in the name of this file to active this config file
+
+
+project:
+  name: GoBox
+storage:
+  path: /Users/stringtek/go/src/GoBox/upload/
+file:
+  encrypt: sha1
+web:
+  host: 0.0.0.0
+  port: 8000
+  staticUrlPrefix: /static/
+  staticDirPrefix: /Users/stringtek/go/src/GoBox/public/
+dataSource:
+  type: mysql
+  # url: root:123456@tcp(*******)/go_box?time_zone=%27Asia%2FShanghai%27
+  url: 123123123
