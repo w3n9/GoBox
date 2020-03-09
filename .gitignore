@@ -1,5 +1,4 @@
 .idea
 conf.yml
-GoBox.exe
-GoBox
+GoBox*
 upload/*
